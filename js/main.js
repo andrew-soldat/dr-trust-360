@@ -4,10 +4,10 @@ const logo = document.querySelector('.logo');
 window.addEventListener('scroll', function () {	
    if (window.scrollY > 400) {
       header.classList.add('scroll');
-		logo.src = 'img/logo-2.png';
+		logo.src = 'img/logo-2.svg';
    } else {
       header.classList.remove('scroll');
-		logo.src = 'img/logo-1.png';
+		logo.src = 'img/logo-1.svg';
    }
 });
 

@@ -24,6 +24,10 @@ body {
   padding: 0 20px;
 }
 
+.container-big {
+  max-width: 1060px;
+}
+
 .subtitle {
   color: #6308C0;
   font-size: 14px;
@@ -82,6 +86,10 @@ body {
           box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.header.scroll .logo {
+  height: 22px;
+}
+
 @media (max-width: 565px) {
   .header .logo {
     height: 17px;
@@ -127,6 +135,8 @@ body {
   margin: 0px 0px 15px 0px;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 2px;
 }
 
 .main__title {
@@ -496,6 +506,10 @@ body {
   margin: 0px 0px 40px 0px;
 }
 
+.journey__img {
+  width: 345px;
+}
+
 @media (max-width: 800px) {
   .journey {
     padding: 50px 0;
@@ -516,6 +530,9 @@ body {
   .journey__title {
     margin: 0px 0px 40px 0px;
   }
+  .journey a {
+    margin: 0px;
+  }
 }
 
 .footer {
@@ -523,7 +540,7 @@ body {
 }
 
 .footer__body {
-  padding: 55px 40px;
+  padding: 55px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
