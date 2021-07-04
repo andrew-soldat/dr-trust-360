@@ -77,6 +77,10 @@ body {
 	}
 
 	@media (max-width: 565px) {
+		&.scroll .logo {
+			height: 17px;
+		}
+
 		.logo {
 			height: 17px;
 		}

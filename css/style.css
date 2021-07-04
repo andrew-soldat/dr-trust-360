@@ -84,6 +84,9 @@ body {
   height: 22px;
 }
 @media (max-width: 565px) {
+  .header.scroll .logo {
+    height: 17px;
+  }
   .header .logo {
     height: 17px;
   }
