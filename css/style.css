@@ -2,7 +2,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
   color: #000;
 }
@@ -100,7 +99,7 @@ body {
 }
 
 .main {
-  background: url("../img/main.jpg") top right no-repeat;
+  background: url("../img/main.jpg") center/cover no-repeat;
   position: relative;
 }
 .main:before {
@@ -137,6 +136,11 @@ body {
 .main p {
   font-size: 18px;
   line-height: 1.4;
+}
+@media (max-width: 1440px) {
+  .main {
+    background: url("../img/main.jpg") 75% 0px/cover no-repeat;
+  }
 }
 @media (max-width: 768px) {
   .main {
